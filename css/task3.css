@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 50px;
+}
+header{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 20px; 
+}
+.nav button{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    
+}
+.hero{
+    display: flex;
+    gap: 50px;
+}
+.product{
+    width: 50%;
+}
+.product h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px 0;
+    
+}
+.product h3{
+    font-size: 19px;
+    padding: 20px 0;
+    color: grey;
+}
+.price{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.body-text{
+    padding: 20px 0;
+    color: grey;
+
+}
+.product button{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 100%;
+}
+.text-box{
+    padding: 20px 0;
+    color: grey;
+    font-size: 14px;
+}
+.title-cards{
+   font-size: 19px;
+    padding: 20px 0;
+    padding-top: 40px; 
+}
+.cards{
+    display: flex;
+    gap: 50px;
+}
+.card-product{
+    padding: 8px 0;
+}
+.card-text{
+    padding: 8px 0;
+    color: grey;
+}
+.card-price{
+    padding: 8px 0;
+    padding-bottom: 100px;
+}
+footer{
+    display: flex;
+    gap: 50;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.details a{
+text-decoration: none;
+    color: black;
+}
+
+.description-links{
+    margin-top: 30px;
+}
+
+.description-links li{
+margin-top: 30px;
+    
+}
+.description-links a{
+    text-decoration: none;
+    color: gray;
+}
+.links{
+    margin-top: 100px;
+}
+

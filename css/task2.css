@@ -1,0 +1,180 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    display: block;
+    margin: 20px;
+    width: max-content;
+}
+body{
+    background: #f5f5f5;
+}
+.card{
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .1);transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.favorite{
+    text-align: right;
+}
+.favorite a{
+    text-decoration: none;
+
+}
+.card img{
+    width: 100%;
+}
+.card h3{
+    margin: 16px 0px;
+    font-size: 20px;
+}
+.card .info{
+    line-height: 1.2;
+    margin: 16px 0px;
+}
+.card .price{
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 24px;
+       
+}
+.card .old-price{
+    color: #e74c3c;
+    text-decoration: line-through;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.card button{
+    color: white;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover{
+    opacity: 0.8;
+}
+/*
+* {
+    
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: #f5f5f5;
+}
+.card {  
+    margin: 0 auto;
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border-radius: 15px;
+}
+.card h3 {
+    margin: 8px;
+    font-size: 22px;
+}
+.card .info {
+    margin: 8px;
+}
+.card .price{
+    margin: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.card .old-price{
+    font-size: 14px;
+    color: #e74c3c;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+button{
+   margin: 8px;
+   font-weight: bold;
+
+}
+.favorite {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+/*
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 32px;
+    font-family: 'Arial', sans-serif;
+
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.card {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.old-price {
+    color: #e74c3c;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+button {
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.favorite {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+}
